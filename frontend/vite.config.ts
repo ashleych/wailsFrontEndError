@@ -13,8 +13,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // src: path.resolve(__dirname, './src'),
-      src: path.resolve('/home/ashleyubuntu/wailsReactDevian/frontend/src'),
+      src: path.resolve(__dirname, './src'),
+      // src: path.resolve('/home/ashleyubuntu/wailsReactDevian/frontend/src'),
     },
   },
   // server: {
